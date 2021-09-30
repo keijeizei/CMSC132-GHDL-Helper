@@ -55,9 +55,9 @@ for (( i = 0; i < ${#1}; i++ )); do
 	fi
 	# analyze
 	if [[ ${1:$i:1} == "a" ]]; then
-		for i in ${@:2}; do             # analyze all args from $2
-			echo -e "${CYAN}ghdl -a $i${DEFAULT}"
-			ghdl -a $i || exit
+		for j in ${@:2}; do             # analyze all args from $2
+			echo -e "${CYAN}ghdl -a $j${DEFAULT}"
+			ghdl -a $j || exit
 		done
 	fi
 	# elaborate
