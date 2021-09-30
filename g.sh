@@ -56,7 +56,7 @@ for (( i = 0; i < ${#1}; i++ )); do
 	# analyze
 	if [[ ${1:$i:1} == "a" ]]; then
 		for i in ${@:2}; do             # analyze all args from $2
-			echo -e "${CYAN}ghdl -a $i.vhd${DEFAULT}"
+			echo -e "${CYAN}ghdl -a $i${DEFAULT}"
 			ghdl -a $i || exit
 		done
 	fi
