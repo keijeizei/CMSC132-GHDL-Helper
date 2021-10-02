@@ -7,6 +7,7 @@
 
 ## Options:
 `d` - delete the work object file (*.cf)
+
 `a` - analyze the files
 `e` - elaborate the test bench entity
 `r` - run the test bench entity
