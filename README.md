@@ -6,13 +6,12 @@
 ```
 
 ## Options:
-`d` - delete the work object file (*.cf)
-
-`a` - analyze the files
-`e` - elaborate the test bench entity
-`r` - run the test bench entity
-`v` - visualize the simulation using a VCD file
-`w` - open the VCD file in GTKWave
+- `d` - delete the work object file (*.cf)
+- `a` - analyze the files
+- `e` - elaborate the test bench entity
+- `r` - run the test bench entity
+- `v` - visualize the simulation using a VCD file
+- `w` - open the VCD file in GTKWave
 
 ## Examples:
 To analyze the files (nand.vhd, inom.vhd, inom_tb.vhd):
